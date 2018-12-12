@@ -1,0 +1,40 @@
+/*Rejestracja*/
+.rejestracja{
+  background: #04121e;
+  padding: 15px;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.dlx_rejestracja_baner{
+  font-family: 'Ultra', serif;
+  text-align: center;
+  padding: 10px;
+}
+.dlx_page_content form div label input{
+  margin-right: 10px;
+}
+/*baner dolny strona rejestru*/
+.baner{
+  position: absolute;
+  bottom: 0;
+  clear: both;
+  z-index: -1;
+}
+div.info {
+    color: pink;
+    display: box;
+    text-align: center;
+    padding: 5px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    background: #66131c;
+}
+.padding_bottom {
+    padding: 10px;
+}

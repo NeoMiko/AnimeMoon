@@ -1,0 +1,14 @@
+.dlx_profil_body{
+    background: #04121e;
+    padding: 15px;
+    height: 100vh;
+}
+.padding-18{
+    padding-left: 18px;
+}
+.nav-tabs{
+    border-color: #C5D0DC;
+    margin-bottom: 0!important;
+    position: relative;
+    top: 1px;
+}

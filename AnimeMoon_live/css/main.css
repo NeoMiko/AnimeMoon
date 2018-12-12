@@ -1,0 +1,153 @@
+main {
+  position: relative;
+  height: 100vh;
+  padding: .5vw;
+
+}
+/*Kontener na anime glowny*/
+main .dlx_page_content {
+  background: #04121e;
+  position: relative;
+  height: 350px;
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+main .dlx_page_content span {
+  color: white;
+  font-size: 0.8em;
+  display: block;
+  padding: 3px;
+}
+.dlx_img_page_content {
+  max-height: 350px;
+  height: 100%;
+  max-width: 250px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0;
+  margin-left: 0;
+  float: left;
+  position: relative;
+}
+.dlx_tagi_page{
+  padding-left: 10px;
+  display: inline-block;
+}
+.dlx_page_tytul{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.dlx_page_footer{
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 10px;
+  position: absolute;
+  margin-left: 270px;
+}
+.dlx_opis{
+  overflow: hidden;
+  text-align: left;
+  max-height: 120px;
+}
+
+  /*Paginacja*/
+
+.dlx_paginacja {
+  margin:20px 0;
+}
+ 
+.dlx_paginacja ul {
+  list-style:none;
+  text-align: center;
+}
+ 
+.dlx_paginacja ul li {
+  display:inline-block;
+  margin-right:10px;
+}
+ 
+.dlx_paginacja ul li a {
+  display:block;
+  padding:10px 20px;
+  color:#fff;
+  background:#04121e;
+  text-decoration: none;
+}
+ 
+.dlx_paginacja ul li a:hover {
+  background:#037E8C;
+}
+ 
+.dlx_paginacja ul li .active {
+  background:#037E8C;
+  font-weight:bold;
+}
+
+/*Ranking serca*/
+.dlx_ec-stars-wrapper {
+  font-size: 0;
+  display: inline-block;
+}
+.dlx_ec-stars-wrapper a {
+  text-decoration: none;
+  display: inline-block;
+  /* Ponownie dajemy wielkosc tekstu */
+  font-size: 32px;
+  font-size: 2rem;
+  color: #888;
+}
+.dlx_ec-stars-wrapper:hover a {
+  color: rgb(39, 130, 228);
+}
+.dlx_ec-stars-wrapper > a:hover ~ a {
+  color: #888;
+}
+.dlx_serca_ranking {
+  margin-right: 150px;
+}
+.dlx_szukaj_body{
+  background: #04121e;
+  padding: 15px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+/*Biblioteka prywatna*/
+.dlx_head_lib{
+  background: #04121e;
+  padding: 10px;
+  border-radius: 15px;
+  font-family: 'Ultra', serif;
+}
+.dlx_lib{
+  background: #04121e;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.dlx_img_lib{
+  max-width: 200px;
+  max-height: 300px;
+  margin: 10px;
+  border: 1px solid #FFEA92;
+  float: left;
+  display: inline-block;
+}
+.dlx_post_lib_new{
+  border: 1px dashed white;
+  width: 200px;
+  height: 284px;
+  display: inline-block;
+  margin: 10px;
+  padding-top: 110px;
+  padding-left: 58px;
+}
+/*slidershpow*/
+#myCarousel{
+    max-height: 400px;
+    height: auto;
+    max-width: 650px;
+    width: auto;
+    margin-top: 15px;
+}

@@ -1,0 +1,102 @@
+.dlx_baner_anime{
+	height: 450px;
+
+}
+.dlx_img_baner{
+	height: 450px;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}	
+.dlx_img_post{
+	width: 250px;
+	height: 350px;
+	background-position: center center;
+ 	background-size: cover;
+ 	bottom: -150px;
+ 	left: 150px;
+ 	position: absolute;
+ 	z-index: 3;
+ 	border: 5px #efefef solid;
+ 	box-shadow: inset 1px 1px 3px rgba(0,0,0,0.2), 1px 1px 4px rgba(0,0,0,0.3);
+}
+.header_anime{
+	height: 450px;
+	width: 100%;
+}
+.dlx_baner_opis{
+  	bottom: 0;
+  	border-top: 1px solid rgba(0,0,0,0.5);
+  	background: rgba(0,0,0,0.4);
+  	left: 0;
+  	padding: 15px 15px 15px 410px;
+  	position: absolute;
+  	right: 0;
+  	z-index: 2;
+}
+.dlx_anime_content{
+	background: #04121e;
+	height: 100%;
+    padding: inherit;
+}
+.dlx_ItemBox{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 15px;
+}
+.dlx_timeShow,.dlx_odc,.dlx_rokWydania,.dlx_rodzaj{
+	font-size: 2em;
+	display: block;
+}
+#hearts { color: #FF0000;}
+#hearts-existing { color: #87bad7;}
+.dlx_ItemBox_serca{
+	margin-top: 15px;
+	padding: 15px;
+}
+.dlx_recenzja{
+	height: 100px;
+	max-width: 950px;
+	overflow: hidden;
+	box-sizing: border-box; 
+	padding: 15px;
+}
+.dlx_page_custom{
+	margin-top: 30px;
+}
+.dlx_status{
+	margin-left: 10px;
+}
+.dlx_textarea{
+	resize: none;
+	max-width: 900px;
+}
+.dlx_form_komentarze{
+	padding: 15px;
+}
+.dlx_komentarze{
+	max-width: 900px;
+	width: 100%;
+	height: 150px;
+	padding: 15px;
+}
+.dlx_kom_avatar{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-right: 10px;
+}
+.dlx_name_kom{
+	color: #1ac91a;
+}
+.dlx_name_kom:hover{
+	text-decoration: none;
+}
+.dlx_gatunek{
+	font-size: 1.5em;
+}

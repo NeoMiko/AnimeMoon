@@ -1,0 +1,74 @@
+/*Klasa hidden ukrywa item*/
+.hidden {
+  display: none;
+}
+/*Kolory + hover*/
+.red {
+	background-color: #D9534F;
+}
+.f_red {
+	color: #D9534F;
+}
+.green {
+	background-color: #5CB85C;
+}
+.f_green {
+	color: #5CB85C;
+}
+.blue {
+	background-color: #428BCA;
+}
+.f_blue {
+	color: #428BCA;
+}
+.f_grey {
+	color: #d3d3d3;
+}
+.top_10 {
+	margin-top: 10%;
+}
+.dlx_ov_hidden{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.dlx_margin_10 {
+	margin: 10px;
+	border: 0px;
+	border-top: 1px solid #eee;
+	box-sizing: border-box;
+}
+.container{
+	width: 95% !important;
+}
+.dlx_flt{
+	content: "\f14a";
+}
+.dlx_filtr input{
+	display: none;
+}
+.dlx_ColorBG{
+	background: #04121e;
+	padding: 15px;
+}
+.no-margin{
+    margin: 0!important;
+}
+.pos-rel{
+    position: relative;
+}
+.middle{
+	vertical-align: middle;
+}
+.inline{
+	display: inline-block!important; 
+}
+.space {
+	max-width: 1px;
+	max-height: 1px;
+	overflow: hidden;
+	margin: 12px 0px;
+}
+.clearMarginMenu {
+    margin-left: -200px!important; 
+}
+

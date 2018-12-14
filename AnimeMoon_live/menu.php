@@ -20,6 +20,7 @@ if ( isset($_SESSION['logged_in']) != 1 ) {
     $visibility_l = "show";
     $visiblity_r = "show";
     $visiblity_o = "hidden";
+    $visiblty_b = "hidden";
 }
 else {
     // Makes it easier to read
@@ -30,6 +31,7 @@ else {
     $visibility_l = "hidden";
     $visiblity_r = "hidden";
     $visiblity_o = "show";
+    $visiblty_b = "show";
 }
 ?>
 
@@ -42,7 +44,7 @@ else {
   </header>
   <ul>
     <a href="biblioteka_main.php"><li tabindex="1" class="icon-globe"><span>Biblioteka Główna</span></li></a>
-    <a href="biblioteka_priv.php" class="<?php echo $visiblty_r; ?>"><li tabindex="2" class="icon-book"><span>Twoja biblioteka</span></li></a>
+    <a href="biblioteka_priv.php" class="<?php echo $visiblty_b; ?>"><li tabindex="2" class="icon-book"><span>Twoja biblioteka</span></li></a>
     <a href=""><li tabindex="3" class="icon-users"><span>Użytkownicy</span></li></a>
     <a href=""><li tabindex="4" class="icon-settings"><span>Opcje</span></li></a>
     <a href="login_p.php" class="<?php echo $visibility_l; ?>"><li tabindex="5" class="icon-lock green"><span>Zaloguj się</span></li></a>

@@ -8,7 +8,7 @@ all rights reserved @2017
 ||||||||||||||||||||||||||||||||||||||
 -->
 
-<?php 
+<?php
 /* Main page with two forms: sign up and log in */
 require 'db.php';
 session_start();
@@ -24,13 +24,13 @@ session_start();
   <script src="js/jquery-3.1.1.min.js"></script>
 </head>
 
-<?php 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') 
-{   
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST')
+{
     if (isset($_POST['register'])) { //user registering
-        
+
         require 'register.php';
-        
+
     }
 }
 ?>
@@ -50,19 +50,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
           <div class="form-group">
             <label for="imie" class="col-sm-2 control-label">Imię</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="imie" placeholder="Lelouch *" name="firstname">
+              <input type="text" class="form-control" id="imie" placeholder="Imię *" name="firstname">
             </div>
           </div>
           <div class="form-group">
             <label for="nazwisko" class="col-sm-2 control-label">Nazwisko</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="nazwisko" placeholder="Lamperouge *" name="lastname">
+              <input type="text" class="form-control" id="nazwisko" placeholder="Nazwisko *" name="lastname">
             </div>
           </div>
           <div class="form-group">
             <label for="inputEmail" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail" placeholder="Haku_@animemoon.com *" name="email">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Example_@animemoon.com *" name="email">
             </div>
           </div>
           <div class="form-group">
@@ -75,14 +75,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
             <div class="col-sm-offset-2 col-sm-10">
               <div class="checkbox">
                 <label>
-                  <input type="checkbox" name="terms"> Przeczytałem i aceptuje warunki.
+                  <input type="checkbox" name="terms"> Przeczytałem i akceptuje warunki.
                 </label>
               </div>
             </div>
           </div>
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-success" name="register">Zarejestruj mnię</button>
+              <button type="submit" class="btn btn-success" name="register">Zarejestruj mnie</button>
             </div>
           </div>
         </form>
@@ -91,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
   </div>
     <img src="img/baner1.png" alt="" class="baner img-responsive">
 
-	  <script src="js/index.js"></script>  
+	  <script src="js/index.js"></script>
       <script src="js/bootstrap.min.js"></script>
 
 

@@ -5,7 +5,7 @@
 // Check if user is logged in using the session variable
 if ( $_SESSION['logged_in'] != 1 ) {
   $_SESSION['message'] = "Musisz się zalogować przed obejrzeniem strony profilu!";
-  header("location: error.php");    
+  header("location: error.php");
 }
 else {
     // Makes it easier to read
@@ -28,9 +28,9 @@ else {
 <body>
         <!-- dodaje menu główne -->
     <?php require  ("menu.php"); ?>
-    
+
 <!--        Profile image, I/0-->
-   <?php 
+   <?php
         $sql = "SELECT * FROM user";
         $result = mysqli_query($mysqli, $sql);
         if (mysql_num_rows($result) > 0) {
@@ -48,11 +48,11 @@ else {
             }
         }
     ?>
-    
+
   <div class="container">
     <div class="col-xs-12">
       <div class="dlx_header_PanelG">
-        <h1>AnimeMoon! Wita cię <?php echo $first_name;?></h1>
+        <h1>AnimeMoon! Wita Cię <?php echo $first_name;?></h1>
       </div>
             <div class="row">
               <div class="col-xs-12">
@@ -90,7 +90,7 @@ else {
                           <div class="tab-content profile-edit-tab-content">
                             <div id="edit-basic" class="tab-pane in active">
                               <h4 class="header f_blue bolder smaller">Główne</h4>
-                               
+
                               <div class="row">
                                 <div class="col-xs-12 ">
                                   <input type="file" />
@@ -150,7 +150,7 @@ else {
                                   &nbsp; &nbsp; &nbsp;
                                   <label class="inline">
                                     <input name="form-field-radio" type="radio" class="ace" />
-                                    <span class="lbl middle"> Dziewczyna</span>
+                                    <span class="lbl middle"> Kobieta</span>
                                   </label>
                                 </div>
                               </div>
@@ -326,8 +326,8 @@ else {
     </div>
   </div>
 
-<script src="js/index.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
+<script src="js/index.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

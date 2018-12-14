@@ -47,7 +47,7 @@ else { // Email doesn't already exist in a database, proceed...
 
         // Send registration confirmation link (verify.php)
         $to      = $email;
-        $subject = 'Weryfikacja konta ( clevertechie.com )';
+        $subject = 'Weryfikacja konta ( animemoon.com )';
         $message_body = '
         Witam '.$first_name.',
 

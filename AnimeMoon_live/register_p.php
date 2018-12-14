@@ -14,7 +14,7 @@ require 'db.php';
 if(!isset($_SESSION))
 {
 		session_start();
-} 
+}
 ?>
 
 <!DOCTYPE html>
@@ -73,6 +73,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
             <div class="col-sm-10">
               <input type="password" class="form-control" id="inputPassword" placeholder="Hasło *" name="password">
             </div>
+						<div class="form-group">
+	            <label for="inputPasswordAgain" class="col-sm-2 control-label">Powtórz Hasło</label>
+	            <div class="col-sm-10">
+	              <input type="password" class="form-control" id="inputPasswordAgain" placeholder="Powtórz Hasło *" name="password">
+	          </div>
           </div>
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">

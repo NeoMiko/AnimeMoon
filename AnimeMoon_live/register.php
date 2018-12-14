@@ -55,7 +55,11 @@ else { // Email doesn't already exist in a database, proceed...
 
         Kliknij ten link, aby aktywować konto:
 
+<<<<<<< HEAD
         http://localhost/login-system/verify.php?email='.$email.'&hash='.$hash; #We don't know is this working
+=======
+        http://localhost/login-system/verify.php?email='.$email.'&hash='.$hash;
+>>>>>>> 362cf11c8b1e18a9c277e0a4f76a03610c4da092
 
         mail( $to, $subject, $message_body );
 

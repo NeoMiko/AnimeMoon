@@ -22,14 +22,14 @@ all rights reserved @2017
 
     <!-- dodaje menu główne -->
     <?php require  ("menu.php"); ?>
-    
+
 <main>
   <div class="dlx_main_index_content container">
 
     <div class="row">
       <div class="col-xs-12"><img src="img/baner_index.png" alt="" id="baner_index"></div>
     </div>
-    
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -75,10 +75,10 @@ all rights reserved @2017
     <span class="sr-only">Next</span>
   </a>
 </div>
-   
+
 </main>
 
-  <script src="js/index.js"></script>  
+  <script src="js/index.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
 

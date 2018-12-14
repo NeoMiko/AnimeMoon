@@ -10,9 +10,9 @@
 	position: relative;
 	max-width: 1800px;
 	width: 100%;
-	max-height: 700px;
+	max-height: : 700px;
 	height: 100%;
-
+	
 }
 /*News*/
 .news_img{
@@ -54,7 +54,7 @@
 	margin: 1% 0 1% 2%;
 	padding: 10px;
 	box-sizing: border-box;
-
+    
 }
 #baner_index{
 	max-width: 1700px;

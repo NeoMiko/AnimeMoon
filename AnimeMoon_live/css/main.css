@@ -57,17 +57,17 @@ main .dlx_page_content span {
 .dlx_paginacja {
   margin:20px 0;
 }
- 
+
 .dlx_paginacja ul {
   list-style:none;
   text-align: center;
 }
- 
+
 .dlx_paginacja ul li {
   display:inline-block;
   margin-right:10px;
 }
- 
+
 .dlx_paginacja ul li a {
   display:block;
   padding:10px 20px;
@@ -75,11 +75,11 @@ main .dlx_page_content span {
   background:#04121e;
   text-decoration: none;
 }
- 
+
 .dlx_paginacja ul li a:hover {
   background:#037E8C;
 }
- 
+
 .dlx_paginacja ul li .active {
   background:#037E8C;
   font-weight:bold;
@@ -143,11 +143,6 @@ main .dlx_page_content span {
   padding-top: 110px;
   padding-left: 58px;
 }
-/*slidershpow*/
-#myCarousel{
-    max-height: 400px;
-    height: auto;
-    max-width: 650px;
-    width: auto;
-    margin-top: 15px;
+.welcome_slider{
+  max-height: 500px;!important
 }

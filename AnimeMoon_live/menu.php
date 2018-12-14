@@ -12,13 +12,14 @@ all rights reserved @2017
 if(!isset($_SESSION))
 {
     session_start();
-} 
+}
 
 // Check if user is logged in using the session variable
 if ( isset($_SESSION['logged_in']) != 1 ) {
     $first_name = "Guest A.";
     $visibility_l = "show";
-    $visiblity_r = "hidden";
+    $visiblity_r = "show";
+    $visiblity_o = "hidden";
 }
 else {
     // Makes it easier to read
@@ -27,7 +28,8 @@ else {
     $email = $_SESSION['email'];
     $active = $_SESSION['active'];
     $visibility_l = "hidden";
-    $visibility_r = "show";
+    $visiblity_r = "hidden";
+    $visiblity_o = "show";
 }
 ?>
 
@@ -40,12 +42,12 @@ else {
   </header>
   <ul>
     <a href="biblioteka_main.php"><li tabindex="1" class="icon-globe"><span>Biblioteka Główna</span></li></a>
-    <a href="biblioteka_priv.php" class="<?php echo $visiblity_r; ?>"><li tabindex="2" class="icon-book"><span>Twoja biblioteka</span></li></a>
+    <a href="biblioteka_priv.php" class="<?php echo $visiblty_r; ?>"><li tabindex="2" class="icon-book"><span>Twoja biblioteka</span></li></a>
     <a href=""><li tabindex="3" class="icon-users"><span>Użytkownicy</span></li></a>
     <a href=""><li tabindex="4" class="icon-settings"><span>Opcje</span></li></a>
     <a href="login_p.php" class="<?php echo $visibility_l; ?>"><li tabindex="5" class="icon-lock green"><span>Zaloguj się</span></li></a>
-    <a href="register_p.php"><li tabindex="6" class="icon-add-user blue"><span>Zarejestruj się</span></li></a>
-    <a href="logout.php" class="<?php echo $visiblity_r; ?>"><li tabindex="7" class="icon-emoji-sad red"><span>Wyjdź</span></li></a>
+    <a href="register_p.php" class="<?php echo $visiblity_r; ?>"><li tabindex="6" class="icon-add-user blue"><span>Zarejestruj się</span></li></a>
+    <a href="logout.php" class="<?php echo $visiblity_o; ?>"><li tabindex="7" class="icon-emoji-sad red"><span>Wyjdź</span></li></a>
   </ul>
   <div class="dlx_nav_social">
     <ul>

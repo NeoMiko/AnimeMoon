@@ -51,21 +51,17 @@ else { // Email doesn't already exist in a database, proceed...
         $message_body = '
         Witam '.$first_name.',
 
-        Dziękujemy za rejestrację!
+                Dziękujemy za rejestrację!
 
-        Kliknij ten link, aby aktywować konto:
+                Kliknij ten link, aby aktywować konto:
 
-<<<<<<< HEAD
-        http://localhost/login-system/verify.php?email='.$email.'&hash='.$hash; #We don't know is this working
-=======
-        http://localhost/login-system/verify.php?email='.$email.'&hash='.$hash;
->>>>>>> 362cf11c8b1e18a9c277e0a4f76a03610c4da092
+                http://localhost/login-system/verify.php?email='.$email.'&hash='.$hash;
 
-        mail( $to, $subject, $message_body );
+                mail( $to, $subject, $message_body );
 
-        header("location: profile.php");
+                header("location: profile.php");
 
-    }
+            }
 
     else {
         $_SESSION['message'] = 'Rejestracja nie powiodła się!';

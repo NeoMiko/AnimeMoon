@@ -11,7 +11,10 @@ all rights reserved @2017
 <?php
 //db connection
     require 'db.php';
+    if(!isset($_SESSION))
+{
     session_start();
+} 
 ?>
 
 <!DOCTYPE html>

@@ -1,8 +1,11 @@
 <?php
 /* Log out process, unsets and destroys session variables */
-session_start();
+if(!isset($_SESSION))
+{
+    session_start();
+} 
 session_unset();
-session_destroy(); 
+session_destroy();
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,9 +18,9 @@ session_destroy();
 <body class="clearMarginMenu">
     <div class="center-block rejestracja">
           <h1>Dzięki, że wpadłeś</h1>
-              
+
           <p><?= 'Zostałeś wylogowany!'; ?></p>
-          
+
           <a href="index.php"><button class="btn btn-success btn-block">Strona Główna</button></a>
 
     </div>

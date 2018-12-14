@@ -1,6 +1,9 @@
 <?php
 /* Displays all successful messages */
-session_start();
+if(!isset($_SESSION))
+{
+    session_start();
+} 
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,9 +15,9 @@ session_start();
 <div class="rejestracja">
     <h1><?= 'Success'; ?></h1>
     <p>
-    <?php 
+    <?php
     if( isset($_SESSION['message']) AND !empty($_SESSION['message']) ):
-        echo $_SESSION['message'];    
+        echo $_SESSION['message'];
     else:
         header( "location: index.php" );
     endif;

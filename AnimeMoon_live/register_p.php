@@ -11,7 +11,10 @@ all rights reserved @2017
 <?php
 /* Main page with two forms: sign up and log in */
 require 'db.php';
-session_start();
+if(!isset($_SESSION))
+{
+		session_start();
+} 
 ?>
 
 <!DOCTYPE html>

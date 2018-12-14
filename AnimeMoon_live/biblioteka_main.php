@@ -26,9 +26,6 @@ all rights reserved @2017
 
           <!-- dodaje menu główne -->
     <?php require  ("menu.php"); ?>
-    <?php
-echo 'Current PHP version: ' . phpversion();
-?>
 
 <main>
   <div class="container dlx_content">
@@ -260,15 +257,15 @@ echo 'Current PHP version: ' . phpversion();
             <i class="dlx_flt text-primary "></i>
             Yuri</label>
           </div>
-          <button type="submit" class="btn btn-success btn-block">Filtruj!</button> 
+          <button type="submit" class="btn btn-success btn-block">Filtruj!</button>
           <script type="text/javascript">
              $('.dlx_filtr input[type="checkbox"]').on('change', function() { if($(this).is(':checked')) { $(this).parent().find('i').css('display', 'inline-block'); } else { $(this).parent().find('i').css('display', 'none'); } }); $('.type input[type="checkbox"]').on('change', function() { if($(this).is(':checked')) { $(this).parent().find('i').css('display', 'inline-block'); } else { $(this).parent().find('i').css('display', 'none'); } });
-          </script>                                     
+          </script>
       </div>
     </div>
   </div>
 </main>
-  
+
     <script src="js/index.js"></script>
     <script src="js/bootstrap.min.js"></script>
 

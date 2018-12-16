@@ -60,7 +60,7 @@
 	vertical-align: middle;
 }
 .inline{
-	display: inline-block!important; 
+	display: inline-block!important;
 }
 .space {
 	max-width: 1px;
@@ -69,6 +69,5 @@
 	margin: 12px 0px;
 }
 .clearMarginMenu {
-    margin-left: -200px!important; 
+    margin-left: -200px!important;
 }
-

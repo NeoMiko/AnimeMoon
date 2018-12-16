@@ -28,84 +28,113 @@ all rights reserved @2017
     <?php require  ("menu.php"); ?>
 
 <main>
-  <div class="container dlx_content">
-    <div class="col-md-9">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="dlx_page_content">
-            <div class="dlx_page_img">
-              <a href="#"><img src="img/b1.jpg" alt="AnimeMoon" class="dlx_img_page_content"></a>
-            </div>
-            <div class="dlx_page_head">
-              <p class="h3 dlx_page_tytul text-center">Anime Name</p>
-              <p class="dlx_tagi_page text-muted"><a href="">action</a></p>
-            </div>
-            <div class="dlx_page_footer">
-              <button class="btn btn-primary btn-xs">23min</button>
-              <button class="btn btn-primary btn-xs">2016</button>
-              <button class="btn btn-warning btn-xs">Anime</button>
-            </div>
-          </div> <!-- Koniec dlx_page_contetn -->
-        </div> <!-- Koniec div-xs-4 -->
-        <div class="col-md-6">
-          <div class="dlx_page_content">
-             <div class="dlx_page_img">
-              <a href="#"><img src="img/b1.jpg" alt="AnimeMoon" class="dlx_img_page_content"></a>
-            </div>
-            <p class="h3 dlx_page_tytul text-center">Anime Name</p>
-            <p class="dlx_tagi_page text-muted">action</p>
-            <div class="dlx_page_footer">
-              <button class="btn btn-primary btn-xs">23min</button>
-              <button class="btn btn-primary btn-xs">2016</button>
-              <button class="btn btn-warning btn-xs">Anime</button>
-            </div>
-          </div> <!-- Koniec dlx_page_contetn -->
-        </div> <!-- Koniec div-xs-4 -->
-      </div> <!-- Koniec row -->
-            <div class="row">
-        <div class="col-md-6">
-          <div class="dlx_page_content">
-             <div class="dlx_page_img">
-              <a href="#"><img src="img/b1.jpg" alt="AnimeMoon" class="dlx_img_page_content"></a>
-            </div>
-            <p class="h3 dlx_page_tytul text-center">Anime Name</p>
-            <p class="dlx_tagi_page text-muted">action</p>
-            <div class="dlx_page_footer">
-              <button class="btn btn-primary btn-xs">23min</button>
-              <button class="btn btn-primary btn-xs">2016</button>
-              <button class="btn btn-warning btn-xs">Anime</button>
-            </div>
-      </div> <!-- Koniec dlx_page_contetn -->
-        </div> <!-- Koniec div-xs-4 -->
-        <div class="col-md-6">
-          <div class="dlx_page_content">
-             <div class="dlx_page_img">
-              <a href="#"><img src="img/b1.jpg" alt="AnimeMoon" class="dlx_img_page_content"></a>
-            </div>
-            <p class="h3 dlx_page_tytul text-center">Anime Name</p>
-            <p class="dlx_tagi_page text-muted">action</p>
-            <div class="dlx_page_footer">
-              <button class="btn btn-primary btn-xs">23min</button>
-              <button class="btn btn-primary btn-xs">2016</button>
-              <button class="btn btn-warning btn-xs">Anime</button>
-            </div>
-      </div> <!-- Koniec dlx_page_contetn -->
-        </div> <!-- Koniec div-xs-4 -->
-      </div> <!-- Koniec row -->
+  <div class="container">
+    <div class="row">
 
-      <div class="row">
-        <section class="col-xs-12 dlx_paginacja">
-          <ul>
-            <li><a href="index.html" class="active">1</a></li>
-            <li><a href="index.html">2</a></li>
-            <li><a href="index.html">3</a></li>
-            <li><a href="index.html">4</a></li>
-            <li><a href="index.html">5</a></li>
-          </ul>
-        </section>
-      </div>
+    <div class="col-9">
+
+      <!-- deck n1 -->
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="img/b1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/b1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/b1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        </div>
+        <!-- deck n2 -->
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="img/b1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/b1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/b1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          </div>
+          <!-- deck n3 -->
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="img/b1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/b1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/b1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            </div>
+
     </div>
-    <div class="col-md-3">
+    <div class="col-3">
       <div class="dlx_szukaj_body">
         <h3>Szukaj!</h3>
         <input type="text" name="search" class="form-control">
@@ -263,6 +292,16 @@ all rights reserved @2017
           </script>
       </div>
     </div>
+  </div>
+  <nav aria-label="biblioteka_main">
+    <ul class="pagination pagination-lg">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">1</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+    </ul>
+  </nav>
   </div>
 </main>
 

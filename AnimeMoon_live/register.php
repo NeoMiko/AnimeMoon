@@ -25,10 +25,7 @@ if ( $result->num_rows > 0 ) {
     header("location: error.php");
 
 }
-   elseif(inputPassword != inputPasswordAgain) {
-     $_SESSION['message'] = 'Źle powtórzone hasło';
-     header("location: error.php");
-   }
+
 else { // Email doesn't already exist in a database, proceed...
 
     // active is 0 by DEFAULT (no need to include it here)

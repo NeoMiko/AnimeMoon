@@ -73,12 +73,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
             <div class="col-sm-10">
               <input type="password" class="form-control" id="inputPassword" placeholder="Hasło *" name="password">
             </div>
-						<div class="form-group">
-	            <label for="inputPasswordAgain" class="col-sm-2 control-label">Powtórz Hasło</label>
-	            <div class="col-sm-10">
-	              <input type="password" class="form-control" id="inputPasswordAgain" placeholder="Powtórz Hasło *" name="password">
-	          </div>
-          </div>
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
               <div class="checkbox">
@@ -97,6 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
       </div>
     </div>
   </div>
+</div>
     <img src="img/baner1.png" alt="" class="baner img-responsive">
 
 	  <script src="js/index.js"></script>
